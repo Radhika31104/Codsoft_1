@@ -1,0 +1,35 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.button{
+    padding: 20px;
+    margin:0px 3px;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 60px;
+    background:rgb(44, 43, 43);
+    color: aliceblue;
+    font-size: 20px;
+    box-shadow: 6px 4px 12px rgb(239, 237, 237);
+}
+
+.row{
+    margin: 8px 0px;
+   
+}
+
+.row input{
+    background:rgb(44, 43, 43);
+    box-shadow: 6px 4px 12px rgb(239, 237, 237);
+    color: aliceblue;
+    width: 300px;
+    margin: 0;
+    font-size: 20px;
+    padding: 10px 2px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
