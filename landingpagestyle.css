@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+    color:rgb(0, 0, 0);
+    }
+    #navbar{
+        height: 60px;
+        background-color: #0F1111;
+        width: 1473px;
+    }
+    .head{
+        margin-left: 650px;
+        position: absolute;
+        font-size: 60px;
+        color: azure;
+      
+    }
+    .head2{
+        color: #000808;
+        position:absolute;
+        margin-top: 75px;
+        margin-left: 280px;
+        font-size: 70px;
+
+    }
+    h1::first-letter{
+        color: palevioletred;
+    }
+    .hand{
+        color: #000707;
+        position:absolute;
+        margin-top: 75px;
+        margin-left: 100px;
+        font-size: 70px;
+    }
+    h2::first-letter{
+        color: palevioletred;
+    }
+   .headline{
+        color: #ebebeb;
+        position:absolute;
+        margin-top: 150px;
+        margin-left: 197px;
+        font-size: 50px;
+    }
+    .heading::first-letter{
+        color:palevioletred;
+    }
+    .img1{
+        position:absolute;
+        margin-top: 230px;
+        margin-left: 700px;
+    }
+    .img1:hover {
+        animation-name: rotate;
+        animation-duration: 0.7s;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+    }
+    .img2{
+        position:absolute;
+        margin-top: 80px;
+        margin-left: 570px;
+    }
+    .img2:hover {
+        animation-name: rotate;
+        animation-duration: 0.7s;
+      }
+    .img3{
+        position:absolute;
+        margin-top: 230px;
+        margin-left: 810px;
+    }
+    .img3:hover {
+        animation-name: rotate;
+        animation-duration: 0.7s;
+      }
+      @keyframes rotate {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+    }
+    .container1{
+        background-color: rgb(153, 220, 236);
+    position:relative;
+    width: 1473px;
+    height: 450px;
+    margin:0;
+    }
+    .icon{
+        position: absolute;
+        margin-left: 1400px;
+        top:10px;
+    }
+    .fav{
+        position: absolute;
+        margin-left:1320px;
+        top:10px;
+    }
+    .cart{
+        position: absolute;
+        margin-left:1360px;
+        top:10px;
+    }
+    .button{
+        background-color: palevioletred;
+        margin-top: 220px;
+        margin-left: 300px;
+    }
+    .container2{
+        background-color:beige;
+    position:relative;
+    height: 200px;
+    width: 1473px;
+    margin: 0;
+    }
+   .sale1{
+    position: relative;
+    margin-left: 420px;
+    margin-top: 5px;
+    animation-name: sale;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: #000707;
+   }
+   @keyframes sale {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 1400px;
+    }
+   }
+   .sale2{
+    position: relative;
+    margin-top: 3px;
+    margin-left:590px ;
+    color: #000707;
+   }
+   .sale3{
+    font-size: 20px;
+    position: relative;
+    margin-top: 5px;
+    margin-left:560px ;
+    color:#000707;
+   }
+   .shop{
+    position: absolute;
+    margin-left:650px ;
+   }
+    .container3{
+        background-color: rgb(255, 255, 255);
+        height: 230px;
+        width: 1473px;
+    }
+    .box1{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+        margin-left: 120px;
+    }
+    .box2{
+        position:relative;
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+        margin-left: 80px;
+    }
+    .box3{
+        position: relative;
+       
+        height: 80px;
+        width: 80px;
+        margin-top:6px;
+        margin-left:70px;
+    }
+    .box4{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+        margin-left: 60px;
+    }
+    .box5{
+        position: relative;
+        height: 80px;
+        width: 80px;
+        margin-top:2px;
+        border: none;
+        border-radius: 40px;
+        margin-left:60px;
+    }
+    .box6{
+        position: relative;
+        height: 80px;
+        width: 80px;
+       margin-top:2px;
+        border: none;
+        border-radius: 40px;
+       margin-left:60px ;
+    }
+    .product{
+        color: #0F1111;
+       margin-top: 4%;
+        margin-left: 43%;
+    }
+   
+    .a{
+        height: 400px;
+        width: 300px;
+        margin-top: 65px;
+        margin-left: 150px;
+    }
+    .b{
+    
+        height: 400px;
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 63px;
+    }
+    .c{
+        height: 400px;
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 62px;
+    }
+    .price{
+        background-color: rgb(237, 237, 210);
+        height: 25px;
+        width: 1473px;
+        position:relative;
+        display: flex;
+        z-index: -1;
+    }
+    .a1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 200PX;
+    }
+    .b1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 315PX;
+    }
+    .c1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 290PX;
+    }
+    .a2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 217px;
+    }
+    .b2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 414px;      
+    }
+    .c2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 360px;
+    }
+    .a3{
+        color: gray;
+        text-decoration:underline;
+        margin-left: 217px;
+    }
+    .b3{
+        color: gray;
+        text-decoration:underline;
+        margin-left: 407px;
+
+    }
+       .c3{color: gray;
+        text-decoration:underline;
+        margin-left: 345px;
+    }
+    .c4{color: gray;
+        text-decoration:underline;
+        margin-left: 365px;
+    }
+       .kurta{
+        background-color: rgb(237, 237, 210);
+        height: 475px;
+        width: 1473px;
+        position:relative;
+        display: flex;
+        z-index: -1;
+    }
+    .d{
+        height: 400px;
+        width: 300px;
+        margin-top: 65px;
+        margin-left: 150px;
+    } 
+    .e{
+    
+        height: 400px;
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 63px;
+    }
+    .f{
+        height: 400px;
+        width: 300px;
+        margin-left: 140px;
+        margin-top: 62px;
+    }
+    .container{
+        background-color:rgb(237, 237, 210);
+        height: 50px;
+        width: 1473px;
+    }
+    .d1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 200PX;
+    }
+    .e1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 335PX;
+    }
+    .f1{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 310PX;
+    }
+    .d2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 217px;
+    }
+    .e2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 414px;
+    }
+    .f2{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 345px;
+    }
+    .d3{
+        color: gray;
+        text-decoration:underline;
+        margin-left: 217px;
+    }
+    .e3{
+        color: gray;
+        text-decoration:underline;
+        margin-left: 407px;
+
+    }
+    .f3{color: gray;
+        text-decoration:underline;
+        margin-left: 355px;
+       }
+
+       .f5{color: gray;
+        text-decoration:underline;
+        margin-left: 335px;
+       }
+       .d4{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 200PX;   
+    }
+    .e4{
+        color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 305PX;
+    }
+    .f4{color: #000707;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 260PX;
+       }
+     .Form{background-color:rgb(233, 238, 239);
+        height: 280px;
+        width: 1473px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+     .Forms{color:rgb(0, 2, 3);
+        text-align: center;
+        text-decoration:underline;
+        font-size: 30px;
+        margin-top: 10px;  
+        margin-bottom: 30px;
+    }
+    .productsize{margin-left: 320px;}
+    .email{margin-left: 320px;}
+    .name{margin-left: 40px;}
+    .phoneno{margin-left: 40px;}
+    .address{margin-left: 280px;}
+    .code{margin-left: 205px;}
+    .placeorder{ color:black;
+    font-size: 20px;
+    margin-top: 40px;
+    background-color:  rgb(22, 181, 22);
+    margin-left: 640px;}
+        .container4{
+            background-color:#000707;
+            display: flex;
+            height: 400px;
+            width: 1473px;
+        }
+        .first{
+            height: 400px;
+            margin-left: 50px;
+            width: 30%;
+            background-color: black;
+            text-align: left;
+        }
+        .second{
+    
+            height: 400px;
+            width: 20%;
+            background-color:black;
+            text-align: left;
+        }
+        .third{
+            height: 400px;
+            width: 20%;
+            background-color:black;
+            text-align: left;
+        }
+        .fourth{
+            height: 400px;
+            width: 20%;
+            background-color:black;
+            text-align: left;
+        }
+        .customer{
+            text-align: left;
+            color: aliceblue;
+            line-height:25px;
+        }
+        .image{
+           margin-left: 10px;
+           height: 20px;
+           width: 20px;
+        }
+        .mail{
+            text-align: left;
+            color: aliceblue;
+            text-decoration: underline;
+            margin-top: 40px;
+        }
+        .mail1{
+            height: 50px;
+            width: 50px;
+            margin-left: 34px;
+            margin-top: 10px;
+        }
+       
+
+    
+    
+
+       
+   
+    
+       
+   
+    
+    
